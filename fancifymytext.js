@@ -6,7 +6,7 @@ function alertPrompt(){
 
 }
 //think i need to use an event listerner
-//test
+//test 2
 function radioButton(){
     let fancySchmancy = document.getElementById("fancySchmancy");
     let boringBetty = document.getElementById("boringBetty");
