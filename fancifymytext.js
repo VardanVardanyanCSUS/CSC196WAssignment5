@@ -6,7 +6,7 @@ function alertPrompt(){
 
 }
 //think i need to use an event listerner
-//test 2
+//test last time
 function radioButton(){
     let fancySchmancy = document.getElementById("fancySchmancy");
     let boringBetty = document.getElementById("boringBetty");
@@ -27,6 +27,6 @@ function radioButton(){
 }
 
 function Moo(){
-    textArea.
+    
 }
 
