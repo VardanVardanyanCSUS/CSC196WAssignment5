@@ -1,3 +1,4 @@
+//Increases the font-size of text area to "24px"
 function alertPrompt(){
     //alert("Hello, World!");
     let textArea = document.getElementById("textArea");
@@ -5,28 +6,37 @@ function alertPrompt(){
 
 
 }
-//think i need to use an event listerner
-//test from macbook
+
+//if FancySchmancy radio button is toggled apply styles
+//if boringBettey radio button is toggeled, remove all applied styles
 function radioButton(){
     let fancySchmancy = document.getElementById("fancySchmancy");
     let boringBetty = document.getElementById("boringBetty");
-    if(fancySchmancy.checked){
-        //boringBetty.checked = false;
+    let textArea = document.getElementById("textArea");
+    
+
+    if (fancySchmancy.checked == true) {
         textArea.style.fontWeight = "bold";
         textArea.style.color = "blue";
         textArea.style.textDecoration = "underline";
-        //boringBetty.checked = false;
-    }
-     if (boringBetty.checked){
-        //fancySchmancy.checked = false;
-        document.getElementById("textArea").style.fontWeight = "normal";
-        //fancySchmancy.checked = false;
-        
-    }
-    //document.getElementById("textArea").style.fontWeight = "bold";
+      } 
+      if (boringBetty.checked == true) {
+        textArea.style.fontWeight = "normal";
+        textArea.style.color = "black";
+        textArea.style.textDecoration = "none";
+      }
 }
 
+//Change text value to Uppercase
+//add "-Moo" at the end of each sentence
 function Moo(){
+    let textArea = document.getElementById("textArea");
+    let parts = textArea.value.split(".");
+
+    textArea.value = parts.join("-Moo");
+    textArea.value = textArea.value.toUpperCase();
     
+    
+
 }
 
