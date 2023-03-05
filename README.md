@@ -1,1 +1,1 @@
-DirectoryIndex: fancifymytext.html
+fancifymytext.html
